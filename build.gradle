@@ -1,0 +1,17 @@
+group 'pl.aetas.microservices'
+version '1.0.0-SNAPSHOT'
+
+apply plugin: 'groovy'
+apply plugin: 'application'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.4.5'
+    compile 'org.mousio:etcd4j:2.7.0'
+    compile 'commons-cli:commons-cli:1.3.1'
+
+
+}

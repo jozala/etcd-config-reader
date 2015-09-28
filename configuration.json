@@ -1,0 +1,18 @@
+{
+    "customers": {
+        "unity": {
+            "exchangeUsername": "avaleoexch",
+            "exchangePassword": "qwerqwer",
+            "customerName": "unity",
+            "availableEmailAddresses": "[\"nancy@avaleo.net\", \"max@avaleo.net\"]",
+            "exchangeHost": "https://exch2013.avaleo.net/EWS/Exchange.asmx"
+        },
+        "unity2": {
+            "availableEmailAddresses": "[\"sofus@test101.local\"]",
+            "exchangeHost": "https://ec2-79-125-13-164.eu-west-1.compute.amazonaws.com/EWS/Exchange.asmx",
+            "exchangeUsername": "avaleosupport",
+            "exchangePassword": "qwerqwer",
+            "customerName": "unity2"
+        }
+    }
+}
